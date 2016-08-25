@@ -6,17 +6,13 @@ import java.io.FileWriter;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-import javax.xml.soap.Text;
-
 public class TrimList {
 	public static void main(String args[]){
-		String document = "List of Words";
-		java.io.InputStream in = Text.class.getResourceAsStream(document + ".txt");
-		//BufferedReader br = new BufferedReader(new InputStreamReader(in));
 		ArrayList<String> names = new ArrayList<String>();		
 		
 		try {
 			
+			@SuppressWarnings("resource")
 			Scanner inScanner = new Scanner(new FileReader("C:\\Users\\bigah\\workspace\\Finding Intelligence from Writing\\src\\List of Words.txt"));
 			while(inScanner.hasNextLine()){
 				names.add(inScanner.nextLine());
@@ -52,6 +48,11 @@ public class TrimList {
                 writer.close();
             } catch (Exception e) {
             }
+            
+		
+		
         }
+        
+	
 	}
 }
