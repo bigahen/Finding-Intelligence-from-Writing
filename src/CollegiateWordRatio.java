@@ -11,11 +11,11 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 public class CollegiateWordRatio {
 	private static String[] collegiateWords = new String[5014];
 	private static ArrayList<String> sampleWords = new ArrayList<String>();
-	private final static String LIST_LOCATION = "C:\\Users\\bigah\\workspace\\Finding Intelligence from Writing\\src\\List of Words.txt";
-	private final static String SAMPLE_DATA_LOCATION = "C:\\Users\\bigah\\workspace\\Finding Intelligence from Writing\\Sample Data.xlsx";
+	//private final static String LIST_LOCATION = "C:\\Users\\bigah\\workspace\\Finding Intelligence from Writing\\src\\List of Words.txt";
+	//private final static String SAMPLE_DATA_LOCATION = "C:\\Users\\bigah\\workspace\\Finding Intelligence from Writing\\Sample Data.xlsx";
 	
-	//private final static String LIST_LOCATION = "C:\\Users\\bigah\\Documents\\workspace\\Finding-Intelligence-from-Writing\\src\\List of Words.txt";
-	//private final static String SAMPLE_DATA_LOCATION = "C:\\Users\\bigah\\Documents\\workspace\\Finding-Intelligence-from-Writing\\Sample Data.xlsx";
+	private final static String LIST_LOCATION = "C:\\Users\\bigah\\Documents\\workspace\\Finding-Intelligence-from-Writing\\src\\List of Words.txt";
+	private final static String SAMPLE_DATA_LOCATION = "C:\\Users\\bigah\\Documents\\workspace\\Finding-Intelligence-from-Writing\\Sample Data.xlsx";
 	
 	private final static int ROW_TO_TEST = 1;
 		
@@ -23,9 +23,9 @@ public class CollegiateWordRatio {
 		int collegiateSampleWordsNum = 0;
 		double collegiateWordRatio;
 		buildWordList();
-		buildSampleList("C:\\Users\\bigah\\workspace\\Finding Intelligence from Writing\\Samples\\"+getSampleLocation(ROW_TO_TEST));
+		//buildSampleList("C:\\Users\\bigah\\workspace\\Finding Intelligence from Writing\\Samples\\"+getSampleLocation(ROW_TO_TEST));
 
-		//buildSampleList("C:\\Users\\bigah\\Documents\\workspace\\Finding-Intelligence-from-Writing\\Samples\\"+getSampleLocation(ROW_TO_TEST));
+		buildSampleList("C:\\Users\\bigah\\Documents\\workspace\\Finding-Intelligence-from-Writing\\Samples\\"+getSampleLocation(ROW_TO_TEST));
 		
 		for(int i = 0; i < sampleWords.size(); i++){
 			for(int j = 0; j < collegiateWords.length; j++){
