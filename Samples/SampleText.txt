@@ -1,6 +1,53 @@
-On January 19th, 2016, I attended a jazz performance by the Dan Haerle Quartet in the Bird Recital Hall. Dan Haerle was on piano, Mike Tracy played both the alto and the soprano saxophone, Christ Fitzgerald played bass, and Mike Hyman was on drums. 
-	The first piece performed was “Body & Soul”, composed by Johnny Green and Edward Heyman, arranged by Dan Haerle. The piece begins with the piano playing the melody. The drums and the bass accompany the piano, helping to create a light timbre for the beginning of the piece. The piano melody begins by altering between dark, harsh notes and lighter notes. In context of the title of the piece, I think this represents the contrast between the body and the soul. The alto saxophone enters and takes the place of the melody for a period of time. The saxophone sounded very smooth, and the notes tended to be more drawn out. During the saxophone melody, I noticed that the bass had an edgy, almost staccato sound. The saxophone melody had a wide range of sounds, also likely to represent the distinction between soul and body. The piano eventually comes back in with its own melody, creating a melodic polyphony. The separate melodies playing at the same time can, once again, be used as an example of the piece attempting to demonstrate the difference between soul and body. Also, towards the end of the piece, I was beginning to easily notice the development of the drums. Hyman altered the drum music in such a way that it was clearly different from how it began. 
-	Even during the first piece, I got a positive vibe from the performers. It was very obvious that they all enjoyed playing together. I would almost describe their performance as nostalgic. As if they had known each other for years, and it’d been a long time since they had a chance to play music just for the sake of doing something together. This feeling persisted throughout the entire performance. Each time one of the musicians had a break or were simply not performing at that moment, it was very obvious that they would stop and listen to the others and enjoy the music their friends were creating. Along with this, they would constantly check with each other during the performance to ensure that they were always playing together. This is a fairly common thing for performers to do, but it did contribute to their overall synchronization. 
-	The second piece performed was “The Spirit Soars”, composed by Dan Haerle. Throughout the piece, the piano was very light. When the saxophone took over the melody, the timbre was also light and the sound was almost legato. This piece maintained homophony, with the piano and saxophone taking turns with the melody. The timbre created by the sounds, along with the saxophone trills, all contribute to a very light mood and help to create the feeling of flying. This definitely seems to go along with the title and purpose of the piece. 
-	The third piece performed was “Stablemates”, composed by Dan Haerle. The saxophone had the majority of the melody in this piece, which contrasted from the previous too. Along with this, the bass played the melody for a short amount of time, and I do not believe it did this in either of the other songs. The drums seemed to have a sound that altered between symbols and the drums, and it wasn’t as developed as some of the other drum parts in the previous songs. 
-	The fourth piece was “Soul Mates”, composed by Dan Haerle. Haerle actually took a few moments to speak about this piece before the performance began. He said that the song is supposed to be about being soulmates with many different people, not just your spouse. I really enjoyed that I was able to get insight into the meaning behind the piece from the person who actually wrote it. Along with this, this was the first piece that featured the soprano saxophone, and I thought this was very cool. I played alto saxophone for several years when I was younger, but I never got a chance to play a soprano saxophone. I always thought they were very cool, and I enjoyed being able to hear a live performance from one. The soprano saxophone, obviously, generally plays higher notes than the alto saxophone. It really helped to create a bright, light timbre within this piece. This piece’s saxophone melody made me think about love, for some reason. The drums never really had any hard hits and also came across as really light. Considering the content that Haerle spoke about for this piece, I think he did a great job creating a timbre for the song. 
+The fastest computers achieve their speed through
+highly parallel designs involving hundreds to thousands
+of processors, as well as substantial parallelism
+within the processors. The majority use off-the-shelf
+microprocessors and memory components to construct
+the basic node, then replicate these nodes in large
+numbers. The number of processors has increased, the
+clock rate has increased, and so has the number of
+instructions issued and processed in each clock cycle
+(using multiple pipelined function units). The challenge
+for designers of SPP systems is to keep these
+complex processors fed with data so they can perform
+close to their potential; this challenge pervades interconnection
+hardware, memory system design, compilation
+techniques, and algorithm design.
+The interconnection hardware for most SPP systems
+continues to be custom designed and proprietary
+to its vendors. The nodes are interconnected
+through a network of switches containing internal
+crossbars and use the same very large-scale integration
+technology as processor chips. The specific
+topology of the interconnect is less visible to the user
+than it was a few years ago, since all packets are
+directly routed in hardware and most of the communication
+time is associated with the node-to-network
+interface. SPP communication technology was
+recently transferred into more conventional settings,
+including commercial machinery, and a number of
+research projects have built high-performance systems
+from emerging system-area networks, such as
+Myrinet in the Berkeley Networks of Workstations
+(NOW) [3], or even commodity local-area networks,
+such as fast Ethernet in the Beowulf system (see cesdis.gsfc.nasa.gov/linux/beowulf/).
+Memory access has always been a key concern for
+fast processors, including vector machines, but it has
+been a less critical issue for microprocessors, until
+recently. Microprocessors have become much faster,
+but memory speeds have not kept pace, so multiple
+levels of caches are used to bridge the gap. And
+because scientific applications tend to access large
+data sets, the difficulty of getting the required data to
+the multiple functional units in a continuous stream
+has increased. Offsetting these shortcomings, many
+current high-performance processors incorporate such
+additional features as instruction reordering and data
+prefetching. While some of these features put the
+onus on the compiler for generating code that takes
+advantage of them, in other cases, the processor hardware
+does the work. Parallel machines add to the
+problem of memory access, because the memory is
+physically distributed as needed. This distribution
+increases memory access time and makes it variable,
+with latency depending on the location of the data.

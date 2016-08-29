@@ -1,0 +1,66 @@
+em henumtinagn, paantdh opg-genlu cSuhriognai-dtaosxei-nn-epgraotidvuec Einscgh, enroicnhsioar cboiltio 0l 1f5e7r:
+H7 is thought to have evolved from an 055:H7-like progenitor (1,
+2). 0157:H7 is the most common enterohemorrhagic E. coli se
+rotype found in North America. Although causing disease in
+humans, E. coli 0157:H7 does not appear to affect cattle, a major
+reservoir for this organism (3, 4). The E. coli 0157:H7 lineage is
+distinguished from other E. coli serotypes by its highly homoge
+nous population structure, comparable to clonal microbial species
+such as Yersiniapestis (5) or Bacillus anthracis (6). During the last 3
+decades, E. coli 0157:H7 has established itself as a major enteric
+pathogen, capable of causing large outbreaks of gastrointestinal
+disease. E. coli 0157:H7 infections usually have a food-borne
+etiology (7). The virulence in E. coli 0157:H7 has been attributed
+to the lateral acquisition of genetic determinants, such as the
+virulence plasmid p0157, the prevalence of a set of phylogeneti
+cally unrelated prophages (8) [in particular Shiga-like toxin (stx)
+converting phages, which can carry different stx subtypes (9)], O
+islands (10, 11), the locus of enterocyte effacement (LEE), the
+arginine translocation system (12), and adhesion factors (13, 14).
+However, little is known about the genomic diversity that exists
+among extant populations of E. coli 0157:H7 or how various
+genotypes of this pathogen relate to development and severity of
+human disease, thus underscoring the need to understand the
+genome dynamics and plasticity of this important pathogen. In the
+context of this study, "population" is defined as a group of isolates
+temporally related and linked through strain-associated metadata,
+such as time (period), source, outbreak, or genotypic assignment.
+Infected patients present with a range of gastrointestinal mor
+bidities such as severe abdominal cramping with little or no as
+sociated fever and a watery diarrhea, which can develop into se
+vere bloody diarrhea (15). Although many infected with the
+pathogen remain asymptomatic, an estimated 15-20% of people
+infected with E. coli 0157:H7 present with indications severe
+enough to require hospitalization. In such cases, symptoms may
+progress to hemolytic uremic syndrome (HUS), hemorrhagic co
+litis, and CNS failure with potentially lethal outcomes (16-18).
+Three widely publicized food-associated outbreaks of E. coli
+0157:H7 infections in 2006 captured the attention of the US
+Congress as well as the public health, forensic, and lay commu
+nities (19). E. coli 0157:H7 continues to be a significant public
+health threat. Recent outbreaks have been associated with the
+emergence of apparently more virulent E. coli 0157:H7 clones,
+with more than 50% of infected persons hospitalized and many
+patients presenting with more severe clinical and potentially life
+threatening complications (19). These outbreaks were traced to
+ingestion of contaminated fresh produce and are referred to as the
+"spinach" (SP), "Taco Bell" (TB), and "Taco John" (TJ) out
+breaks. The spinach incident was a multistate outbreak (26 states)
+that caused 199 illnesses and at least three deaths. Among the ill,
+51% (102 patients) were hospitalized, and in 16% of the cases (31
+patients), infection progressed to HUS and kidney failure (19).
+Much research has been done to understand the pathogenesis of
+E. coli 0157:H7, but data addressing selection and adaptation of
+variants during the time course of a single outbreak of human
+disease are lacking. In this study the genetic analysis of 231 E. coli
+0157:H7 strains, the genome sequences of 26 isolates (18 of which
+were obtained for this study) allowed unprecedented insights into
+the genomic plasticity and genome dynamics of the genetically
+homogenous E. coli 0157:H7 lineage. This extensive dataset en
+abled a detailed analysis of the types of host selection and adap
+tation occurring during the time course of a single outbreak on
+a genome- and population-wide scale. This study identified nu
+merous biomarkers that aided in the development of a more re
+fined and accurate phylogenomic framework and contributed to
+the investigation of the genetic relatedness of individual strains
+and their assignment into distinct virulence cla

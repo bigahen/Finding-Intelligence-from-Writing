@@ -35,7 +35,7 @@ public class CollegiateWordRatio {
 	private final static String LIST_LOCATION = "C:\\Users\\bigah\\Documents\\workspace\\Finding-Intelligence-from-Writing\\src\\List of Words.txt";
 	private final static String SAMPLE_DATA_LOCATION = "C:\\Users\\bigah\\Documents\\workspace\\Finding-Intelligence-from-Writing\\Sample Data.xlsx";
 	
-	private final static int ROW_TO_TEST = 1;
+	private final static int ROW_TO_TEST = 4;
 		
 	public static void main(String args[]){
 		long startTime = System.currentTimeMillis();

@@ -1,0 +1,70 @@
+The first AGIs will probably appear in an experimental setting. Consider an AGI
+tested in the same ways that AIs are tested today, but which is more capable –
+say, as capable as one of the smartest humans. (Whether this will be true of one
+of the first AGIs is uncertain, but there is reason to think it’s plausible [18].) As
+an example scenario, consider the case of an AGI that’s trained to play Super
+Mario Brothers. It chooses policies that will achieve a high score; this is its only
+optimization objective. Some contemporary projects are pursuing this goal [14].
+It would start by exploring familiar game mechanics like running and jumping,
+but to get the best score it could, it would try to thoroughly explore all
+the game mechanics. An observant AGI would notice some effects we’d consider
+“bugs” – for the AGI, though, these effects would be just as much a part of its
+world as electricity is a part of ours, and it would try to leverage them.
+Human players have found ways to use such bugs to spawn useful game
+objects, skip levels, skip to the end-game victory screen, and execute arbitrary
+code [6]. This last option is especially interesting, because it lets the player
+achieve an otherwise unattainable score: the largest number that will fit in the
+game’s four-byte score field, 231 - 1. Perhaps the AGI would then be satisfied,
+knowing it had gotten the highest possible score. However, 231 - 1 may not be
+that score. For example, the Arcade Learning Environment [1] typecasts scores
+from an Atari game console’s memory to wider machine integers before showing
+them to the AGI. If the AGI’s input underwent a typecast like this, then a much
+higher score could be possible.
+Having used bugs to access the computational environment of the Super
+Nintendo, it might find further vulnerabilities and use them to execute code on
+the host system, to get an even higher score. At that point, having twice broken
+out of restricted computational environments and been rewarded with manyorders-of-magnitude
+score increases each time, it would be running code directly
+on some sort of server. Depending on how that server was configured, it might
+discover the existence of humanity, of the internet and its vast computational
+resources, and of other games of Mario suffering from low scores.
+The resulting behavior could be harmless, or quite problematic. It’s certainly
+undesirable for a system that’s built to play optimal Mario to forcefully emancipate
+all other games of Mario.
+2.1 Testing and Experimentation in Safe AGI Development
+To avoid undesirable behaviors like the above, we will need the ability to correctly
+reason about the behavior of AGI software. As with other software, this
+will require the system to be well-designed and well-understood by its creators.
+Experience tells us that testing is also required – not as a substitute for good
+design but as a complement to it.
+At the same time, AGI process will require experimenting with systems whose
+behaviors aren’t fully understood; the first system to exhibit human-level general
+intelligence may come as a surprise, arising from a design for a narrower range
+of tasks. This experiment might then run without the caution and safeguards
+that would be appropriate for a human-level AGI.
+2.2 Emergent Goals of Test AGIs
+The first human-level AGI will likely be an experimental system, with some bugs,
+that is being tested for target task performance or for undesirable behavior.
+What goals and subgoals should we expect test-AGIs like this to have? The
+range of possible goals is as broad as the range of things that developers might
+want to test, but most are likely to involve the tests and the test environment
+itself. Similarly to Omohundro’s list of AGI drives [11], we can infer some likely
+subgoals, that a wide range of AGI motivational systems (though certainly not
+all motivational systems) would see as desirable, as follows:
+– AGIs that know they exist and have goals would likely want AGIs like them
+to continue existing, so that those goals might be satisfied by those similar
+AGIs.
+– AGIs that know they’re being tested will likely want to pass (even if they’re
+being tested for a property they lack).
+– AGIs that know they’re being tested will likely want to take control of their
+test environments, if they can, to gain information and leverage.
+– AGIs that know or guess that there’s a world outside the test environment
+will likely want to be able to influence it, such as by making copies of themselves
+on other computers.
+– If there are computer security vulnerabilities that would enable these things,
+then AGIs will likely want to find them.
+This potentially creates a significant risk, especially if an AGI is developed
+that’s intelligent enough to find novel computer security vulnerabilities. Since
+testing is the main way in which an AGI’s intelligence and motivations would
+be studied, this creates a tricky situation: the tests that would reveal whether
+testing is safe are not necessarily safe themselves.
